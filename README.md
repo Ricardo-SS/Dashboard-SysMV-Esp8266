@@ -14,6 +14,7 @@
 # Capturas de tela
 <p align="center">
     <img src="readme/pc.png" width="800" />
+    <img src="readme/login-pc.png" width="800" />
     <img src="readme/mobile.png" width="800" />
 </p>
 
@@ -37,6 +38,7 @@
 ### Instruções
 
 - É necessário editar o arquivo auth.js com as credenciais do seu projeto.
+- Foi usado o sistema de altentica;áo do firebase, crie um usuario com email/senha no seu projeto para acessar o dashboard
 - O único arquivo de estilos CSS que está sendo utilizado é o style.css. Os outros arquivos foram criados para testes de outras estilizações, mas não foram concluídos por falta de tempo.
 - O sketch do ESP8266 não está sendo disponibilizado aqui, pois é uma parte crucial do projeto de TCC. Portanto, você deve usar seu próprio sketch e adaptar a dashboard às suas necessidades.
 - A pasta readme nao faz parte do projeto, é apenas para colocar as imagens desse repositório.
