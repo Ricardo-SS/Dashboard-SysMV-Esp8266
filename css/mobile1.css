@@ -1,0 +1,182 @@
+
+@media only screen and (max-width: 1440px) {
+
+  .navbar {
+    width: 76%;
+    position: fixed;
+    top: 4px;
+    left: 22%;
+    right: 2%;
+  }
+
+  .card-login {
+    width: 18%;
+  }
+
+  .sidebar {
+    width: 16%;
+  }
+
+    .container {
+      grid-template-columns: repeat(4, 1fr);
+      /* margin-left: 250px; */
+      /* margin-right: 1.2rem; */
+    }
+  
+    .card-side {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .cards, .container {
+      width: 76%;
+      /* margin-left: 250px; */
+      /* margin-right: 1.2rem; */
+    }
+
+    .card-grafico,
+    .card-grafico-maps {
+      height: 100%;
+    }
+    #chart-disponivel {
+      height: 100%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    
+    .container, .cards {
+      grid-template-columns: repeat(4, 1fr);
+      /* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
+      grid-gap: 1.2rem;
+      width: 74%;
+      margin-left: 24%;
+      margin-right: 2%;
+      /* margin-right: 1.2rem; */
+    }
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .navbar {
+      width: 74%;
+      left: 24%;
+      margin-right: 2%;
+    }
+    .sidebar {
+      width: 17%;
+      max-width: 17%;
+    }
+    .card-login {
+      width: 19%;
+    }
+  
+    footer {
+      max-width: 74%;
+      position: fixed;
+      /* margin-top: 2rem; */
+      margin-left: 2%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .container, .cards {
+      grid-template-columns: repeat(2, 1fr);
+      /* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
+      grid-gap: 1.2rem;
+      width: 64%;
+      margin-left: 32%;
+      margin-right: 2%;
+      /* margin-right: 1.2rem; */
+    }
+    .navbar {
+      width: 64%;
+      left: 32%;
+      margin-right: 2%;
+    }
+    .sidebar {
+      width: 23%;
+      max-width: 23%;
+    }
+    .card-login {
+      width: 25%;
+      min-width: 25%;
+    }
+
+    footer {
+      max-width: 64%;
+      position: fixed;
+      left: 30%;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+
+    .navbar {
+      width: 96%;
+      left: 0;
+      margin-right: 2%;
+    }
+  
+    .form-elements-container {
+      margin: 10vh auto;
+    }
+      
+    .navbar,.card-login {
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 0;
+      position: relative;
+    }
+  
+    /* .navbar-logo {
+      margin-left: 10px;
+    } */
+  
+    .container {
+      width: 96%;
+      max-width: 96%;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+      margin-left: 2%;
+      margin-top: 1rem;
+    }
+    .card-login {
+      width: 94%;
+      max-width: 94%;
+      padding: 2px;
+      margin: 0 auto;
+      margin-top: 1rem;
+      position: inherit;
+    }
+    
+    .sidebar {
+      position: inherit;
+      width: 92%;
+      max-width: 94%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .cards {
+      width: 94%;
+      max-width: 94%;
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 3%;
+    }
+  
+    footer {
+      width: 94%;
+      max-width: 100%;
+      background-color: #ccc;
+      position: fixed;
+      left: 1%;
+      border-radius: 16px 16px 0 0;
+    }
+  }
