@@ -7,7 +7,7 @@
 <hr>
 
 # ATENÇÃO
-## NÃO ESTA AUTORIZADO, DE NENHUMA FORMA, O USO COMECIAL DESSE PROJETO SEM AUTORIZAÇÃO POR ESCRITO DA MINHA PARTE!
+#"Fica expressamente proibido, em qualquer circunstância, o uso comercial deste projeto sem a devida autorização por escrito da minha parte. Qualquer utilização para fins lucrativos sem a minha prévia autorização constitui violação dos direitos autorais e pode sujeitar o infrator às penalidades legais previstas em lei."
 
 - Esse projeto pode ser usado exclusivamente para fins educacionais.
 
