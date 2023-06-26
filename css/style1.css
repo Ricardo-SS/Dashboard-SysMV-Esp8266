@@ -6,7 +6,8 @@
 
 body{
   font-family: 'lato', sans-serif;
-  background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
+  background: radial-gradient(circle, rgba(63, 251, 192, 1) 0%, rgba(70, 95, 252, 1) 100%);
+  /* background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%); */
 }
 
 h1 {
@@ -40,7 +41,7 @@ a {
   margin-bottom: 1rem;
   background-color: #555555d8;
   /* background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1)100%); */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
 
 .navbar-container {
@@ -92,7 +93,7 @@ a {
   text-decoration: none;
   background-color: rgba(0, 220, 120, 0.80);
   border-radius: 8px;
-  padding: 4px 8px;
+  padding: 8px 8px;
   transition: 0.3s;
 }
 
@@ -108,10 +109,10 @@ a {
   margin-left: 22%;
   margin-right: 2%;
   margin-top: 92px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 
 .card-login {
@@ -128,7 +129,7 @@ a {
   /* background-color: rgba(0, 124, 64, 0.6) ; */
   background-color: rgb(255, 255, 255, 0.7);
   /* border-radius: 0 0.8rem 0.8rem 0; */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   padding: 8px;
 }
 
@@ -157,13 +158,13 @@ a {
 .sidebar {
   width: 17%;
   max-width: 18%;
-  border-radius: 16px;
+  border-radius: 8px;
   position: fixed;
   top: 92px;
   left: 2%;
   padding: 116px 16px 36px 16px;
   background-color: rgba(60, 63, 63, 0.1);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); */
   height: 100%;
   z-index: -1;
 }
@@ -171,8 +172,8 @@ a {
 /* fim sidebar   */
 .card-side {
   background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 16px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
   padding: 16px;
   /* height: 6vh; */
   /* text-align: center; */
@@ -192,13 +193,13 @@ a {
 
 .card-select {
   width: 15%;
-  border-radius: 16px;
+  border-radius: 8px;
   max-height: 100px;
   position: fixed;
   top: 108px;
   left: 3%;
   background-color: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
   padding: 16px;
   margin-bottom: 12px;
   padding: 1rem;
@@ -223,8 +224,8 @@ a {
 
 .card {
   background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 16px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   padding: 16px;
   /* height: 18vh; */
   min-height: 96px;
@@ -249,22 +250,22 @@ a {
 } */
 
 .card-1 {
-  background-color: rgba(120, 207, 73, 0.8);
+  /* background-color: rgba(120, 207, 73, 0.8); */
   border-top: 2px solid #4ffe3877;
 }
 
 .card-2 {
-  background-color: rgba(58, 169, 216, 0.8);
+  /* background-color: rgba(58, 169, 216, 0.8); */
   border-top: 2px solid #049FAA80;
 }
 
 .card-3 {
-  background-color: rgba(61, 15, 215, 0.751);
+  /* background-color: rgba(61, 15, 215, 0.751); */
   border-top: 2px solid #8e38fe80;
 }
 
 .card-4 {
-  background-color: rgba(226, 121, 6, 0.8);
+  /* background-color: rgba(226, 121, 6, 0.8); */
   border-top: 2px solid #ffd90080;
 }
 
@@ -286,12 +287,12 @@ a {
   /* margin-left: 250px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 
 .card-grafico {
   background-color: rgb(255, 255, 255, 0.7);
-  border-radius: 0.8rem;
+  border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   padding: 0.8rem;
   text-align: center;
@@ -301,7 +302,7 @@ a {
 #chart-disponivel {
   width: 100%;
   height: 350px;
-  border-radius: 0.6rem;
+  border-radius: 8px;
 }
 
 .card-grafico-maps {
@@ -329,7 +330,7 @@ a {
   margin: 16vh auto;
   font-size: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: rgb(240, 248, 255, 0.6);
 }
@@ -387,7 +388,7 @@ footer {
   left: 22%;
   right: 2%;
   bottom: 0;
-  border-radius: 16px 16px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 
 footer a:hover {
